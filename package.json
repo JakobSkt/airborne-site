@@ -1,0 +1,22 @@
+{
+  "name": "airborne-site",
+  "version": "1.0.0",
+  "description": "Website for AirBorne Window Cleaning",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jakrox/airborne-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jakrox/airborne-site/issues"
+  },
+  "homepage": "https://github.com/Jakrox/airborne-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
