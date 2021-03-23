@@ -1395,7 +1395,7 @@ a {
   position: absolute;
   left: auto;
   top: -142%;
-  right: -2%;
+  right: 7%;
   bottom: auto;
   z-index: -1;
   width: auto;
@@ -1684,20 +1684,6 @@ a {
 
   .nav-menu {
     position: absolute;
-  }
-
-  .hero-image {
-    position: relative;
-    left: 0vw;
-    top: auto;
-    right: 0vw;
-    bottom: 0px;
-    display: block;
-    width: 70%;
-    height: auto;
-    margin-right: auto;
-    margin-bottom: 7vw;
-    margin-left: auto;
   }
 
   .hero-content {
