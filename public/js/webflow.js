@@ -17762,12 +17762,14 @@ Webflow.define('forms', module.exports = function ($, _) {
     // Init forms
     init(); // Wire document events on published site only once
 
+	  
     if (!inApp && !listening) {
-      addListeners();
+      //addListeners();
     }
   };
 
   function init() {
+	  
     siteId = $('html').attr('data-wf-site');
     formUrl = "https://webflow.com" + '/api/v1/form/' + siteId; // Work around same-protocol IE XDR limitation - without this IE9 and below forms won't submit
 

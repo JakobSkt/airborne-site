@@ -1929,7 +1929,12 @@ a {
   .nav-inner {
     width: 100vw;
   }
-
+	
+  #name-input {
+	margin-right: 25px;
+	  
+	  
+  }
   .feature {
     width: auto;
     padding-right: 16vw;
