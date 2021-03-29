@@ -28,19 +28,17 @@ catch (err) {
 app.use(bodyParser.json({
 	verify: webhookMiddleware.extractRawBody
 }))
-app.use('/api/gitevent', webhookMiddleware({
+app.use('/gitevent', webhookMiddleware({
 	algorithm: 'sha1',
 	secret: secret,
 	require: true
 }))
-app.use('/api/gitevent', (req, res) => {
+app.use('/gitevent', (req, res) => {
 	res.send('ok')
 	execSync('git pull')
 	if (pm2_id)
 		execSync(`pm2 restart ${pm2_id} --update-env`)	
 })
-
-
 
 
 
