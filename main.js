@@ -21,7 +21,7 @@ try {
 	if (secret.includes('\n')) secret = secret.split('\n')[0]
 }
 catch (err) {
-	log("webhook_secret mangler!")
+	log("filen: webhook_secret mangler!")
 	process.exit()
 }
 
