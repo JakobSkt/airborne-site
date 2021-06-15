@@ -1,3 +1,7 @@
+::selector {
+  color: #397675;
+}
+
 #goBackBtn {
   background: #333;
   border-radius: 20px;
