@@ -1407,8 +1407,8 @@ a {
 .heroimage {
   position: absolute;
   left: auto;
-  top: -142%;
-  right: 7%;
+  top: -95%;
+  right: -7%;
   bottom: auto;
   z-index: -1;
   width: auto;
